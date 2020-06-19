@@ -118,17 +118,22 @@ public class Game {
 														System.out.println("你当前的血量是  " + evolvedPlayer.hp);
 														System.out.println(
 																"我和你荡秋千~荡到那天外天~看着那牛郎织女相会在那银河边~我和你心相连~幻想在蔚蓝海边~坐着那小船游啊游啊游到岸的彼岸~");
-														gethasWeapon(weaponList, hasWeapon);
+//														gethasWeapon(weaponList, hasWeapon); REMOVE BY BOSS
+														System.out.println("[System] weaponList has been cleared.");
+														System.out.println("什么！我的背包竟然被清空了？？？");
+														System.out.println("影流之主：哈哈哈哈哈哈哈哈哈哈哈哈哈，你以为你能打败我？？做梦！");
+														System.out.println(
+																"难道我就只能坐以待毙了吗？？？VXNlJTIwc29tZSUyMGluc3RydWN0aW9ucyUyMHRvJTIwc2F2ZSUyMHlvdS4=/fromgod");
 														Scanner attackToBoss = new Scanner(System.in);
 														String chosenofBoss = attackToBoss.next();
-														if (chosenofBoss.equals("1")) {
+														if (chosenofBoss.equals("/give--@p--赤手空拳")) {
 															System.out.println("你 " + weaponList.get(0) + "，对 "
 																	+ Boss.name + " 造成了 " + Boss.hp + " 点伤害！");
 															System.out.println("转眼间，世界恢复了光明！你凯旋而归，成为了鬼畜大陆永远传世的神话！");
 															System.out.println("恭喜获得成就：赤手空拳打败BOSS的男人");
 															System.out.println("游戏的内容到此结束，感谢您的游玩！");
 															System.exit(0);
-														} else if (chosenofBoss.equals("2")) {
+														} else if (chosenofBoss.equals("/give--@p--爷爷的拐杖")) {
 															System.out.println(
 																	"你使用了 " + weaponList.get(1) + "，" + Boss.name
 																			+ " 被打飞到∞光年外！并造成了 " + Boss.hp + " 点伤害！");
@@ -136,7 +141,7 @@ public class Game {
 															System.out.println("恭喜获得成就：用一根爷爷祖传的的拐杖打败BOSS的男人");
 															System.out.println("游戏的内容到此结束，感谢您的游玩！");
 															System.exit(0);
-														} else if (chosenofBoss.equals("3")) {
+														} else if (chosenofBoss.equals("/give--@p--㊙Hotel")) {
 															System.out.println("你使用了 " + weaponList.get(2) + "，"
 																	+ Boss.name + " 爆炸了！并对它造成了 " + Boss.hp + " 点伤害！");
 															System.out.println("转眼间，世界恢复了光明！你凯旋而归，成为了鬼畜大陆永远传世的神话！");
